@@ -31,6 +31,3 @@ Options:
 - `Ctrl-C` interrupts a response, or exits when idle.
 - Every launch starts a fresh Codex thread. `Ctrl-N` starts another fresh thread
   and `Ctrl-L` clears the visible transcript.
-
-No biribiri session data is stored. Existing metadata from older versions in
-`~/.local/state/biribiri/sessions.json` is no longer read or updated.
