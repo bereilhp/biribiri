@@ -1,0 +1,23 @@
+{
+  "name": "biribiri",
+  "version": "0.0.1",
+  "description": "A tiny, opinionated CLI harness for AI agents.",
+  "homepage": "https://github.com/bereilhp/biribiri#readme",
+  "bugs": {
+    "url": "https://github.com/bereilhp/biribiri/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bereilhp/biribiri.git"
+  },
+  "license": "MIT",
+  "author": "bereilhp",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "biribiri": "bin/biribiri.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
